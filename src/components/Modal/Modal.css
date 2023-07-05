@@ -1,0 +1,50 @@
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, .5) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-modal{
+    width: 80vw;
+    min-height: 85vh;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111,0.2) 0px 7px 29px 0px ;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    z-index: 2;
+
+}
+
+.contenedor-boton-cerrar-modal{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.boton-cerrar-modal{
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+background-color: transparent;
+transition: 0.3 ease all;
+}
+.boton-cerrar-modal:hover {
+    color: red;
+}
+
+
+.contenido-modal{
+    max-height: 75vh;
+    min-height: 400px;
+    overflow-y: scroll;
+   
+}

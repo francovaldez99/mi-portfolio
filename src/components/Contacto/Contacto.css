@@ -1,0 +1,95 @@
+.contact-container{
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    
+    /* min-height: 95vh; */
+    
+    display: grid;
+    place-items: center;
+}
+.contenido-contact{
+    padding: 0 1.5rem;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    }
+    .contact-title{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .contact-wrapper {
+        border-radius: 8px;
+        box-shadow: 4px 3px 4px 4px rgba(0, 0, 0, 0.17);
+        margin-bottom: 50px;
+
+    }
+     .contact-wrapper > * {
+        padding: 25px 25px;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        
+
+
+    }
+
+    
+    .contact-form p input ,
+    .contact-form p textarea
+{
+    width: 100%;
+    padding: .7rem;
+    border-radius: 8px;
+   border: 1px solid;
+    outline: none;
+
+}
+.contact-info{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+}
+.contact-info ul{
+list-style-type: none;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 100%;
+}
+.contact-info ul li a{
+    display: flex;
+}
+.contact-info h4 {
+    margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+    .contact-wrapper > * {
+        padding: 55px 25px;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr ;
+    }
+}
+
+/* Estilos para el botón en estado de carga */
+#button-loading {
+    background-color: #ffc107;
+  }
+  
+  /* Estilos para el botón cuando el mensaje se ha enviado */
+#button-success {
+    background-color: #28a745;
+  }
+  
+  /* Estilos para el botón cuando hay un error en el envío */
+  #button-error {
+    background-color: #dc3545;
+  }
+  #Enviar{
+    background-color: #4285F4;;
+  }
