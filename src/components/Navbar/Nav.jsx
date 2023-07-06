@@ -11,7 +11,7 @@ function Nav() {
   return (
     <div className='nav-container'>
         <div href='#inicio'>
-          <p className='logo'>Valdez </p>
+          {/* <p className='logo'>Valdez </p> */}
         </div>
 
             <nav className={`nav ${isOpen? "responsive-nav":""}`}>

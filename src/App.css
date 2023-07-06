@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@700&family=Heebo:wght@200&family=Josefin+Sans:ital,wght@1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:ital,wght@1,100&family=Raleway:ital,wght@1,200&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -21,17 +20,19 @@ h1,h2,h4{
   /* font-size: 28px; */
 }
 p,a,button{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   /* font-size: 20px; */
-  font-weight: 700;
+
 
 }
 span,label{
-  font-family: 'Open Sans', sans-serif;
-  font-weight:600 ;
+  font-family: 'Lora', serif;
+
 
 }
-
+ul{
+  list-style: none;
+}
 
 a{
   text-decoration: none;
@@ -50,4 +51,9 @@ a:active{
 a span {
   cursor: pointer;
   user-select: none;
+}
+.inicio-nav-container{
+  background: linear-gradient(rgba(1, 42, 74, .65),rgba(1, 42, 74, .65)),
+  url("../src/assets/imgs/altumcode-dMUt0X3f59Q-unsplash.jpg");
+background-size: cover;
 }

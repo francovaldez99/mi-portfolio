@@ -10,8 +10,11 @@ import Proyectos from './components/Proyectos/Proyectos';
 function App() {
   return (
     <div >
-        <Nav/>
-      <Inicio/>
+        <div className='inicio-nav-container'>
+          <Nav/>
+          
+                <Inicio/>
+        </div>
      <MySkills/>
      <Proyectos/>
      <Contacto/>

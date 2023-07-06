@@ -1,95 +1,120 @@
-.contact-container{
-    /* margin-top: 50px; */
-    /* margin-bottom: 50px; */
-    
-    /* min-height: 95vh; */
-    
-    display: grid;
-    place-items: center;
-}
+
 .contenido-contact{
-    padding: 0 1.5rem;
-    max-width: 1170px;
-    margin: 0 auto;
-
-    }
-    .contact-title{
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .contact-wrapper {
-        border-radius: 8px;
-        box-shadow: 4px 3px 4px 4px rgba(0, 0, 0, 0.17);
-        margin-bottom: 50px;
-
-    }
-     .contact-wrapper > * {
-        padding: 25px 25px;
-    }
-    .contact-form {
-        display: flex;
-        flex-direction: column;
-        
-
-
-    }
-
-    
-    .contact-form p input ,
-    .contact-form p textarea
-{
     width: 100%;
-    padding: .7rem;
-    border-radius: 8px;
-   border: 1px solid;
-    outline: none;
-
-}
-.contact-info{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: space-around;
-}
-.contact-info ul{
-list-style-type: none;
-text-align: center;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-height: 100%;
-}
-.contact-info ul li a{
+    height: 100vh;
+    position: relative;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
 }
-.contact-info h4 {
-    margin-bottom: 15px;
+    .contenido-contact video{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+.overlay-video{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(1, 42, 74, .5);
+z-index: 1;
 }
-@media screen and (min-width: 768px) {
-    .contact-wrapper > * {
-        padding: 55px 25px;
+.contact-container{
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container * {
+    color: #fff;
+  
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 500px;
+    background-color: rgba(1, 42, 74, .75);
+    margin: 5px 10px;
+
+}
+@media screen and (max-width: 768px) {
+    .contact-wrapper{
+        grid-template-columns: 1fr;
     }
-    .contact-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1.2fr ;
+    .contact-info{
+        min-height: 270px;
+        padding: 1px 20px;
+
     }
+}
+.contact-wrapper .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    max-width: 600px;
+    padding: 10px 20px;
+}
+.contact-wrapper .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    /* padding: 10px 20px; */
+}
+.contact-wrapper .contact-info h4 {
+    margin-bottom: 20px;
+}
+.contact-form p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contact-form p input{
+    height: 38px;
+    margin-top: 5px;
+    max-width: 560px;
+    color: #fff;
+    background-color: rgba(1, 42, 74, .9);
+    border: 1px solid #fff;
+outline: none;
+
+}
+.contact-form p textarea{
+    height: 78px;
+    margin-top: 5px;
+    max-width: 560px;
+    color: #fff;
+    background-color: rgba(1, 42, 74, .9);
+border: 1px solid #fff;
+outline: none;
+
+}
+.contact-form p button {
+    margin-top: 5px;
+}
+.contact-info p{
+    font-size: 23px;
+}
+.contact-info ul {
+    list-style: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1 0 auto;
 }
 
-/* Estilos para el botón en estado de carga */
-#button-loading {
-    background-color: #ffc107;
-  }
-  
-  /* Estilos para el botón cuando el mensaje se ha enviado */
-#button-success {
-    background-color: #28a745;
-  }
-  
-  /* Estilos para el botón cuando hay un error en el envío */
-  #button-error {
-    background-color: #dc3545;
-  }
-  #Enviar{
-    background-color: #4285F4;;
-  }
+.contact-info button{
+    color: #fff;
+}

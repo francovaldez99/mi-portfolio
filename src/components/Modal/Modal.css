@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color:rgba(0, 0, 0, .5) ;
+    background-color:rgba(1, 42, 74, .9) ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,9 +17,6 @@
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111,0.2) 0px 7px 29px 0px ;
     padding: 20px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
     z-index: 2;
 
 }

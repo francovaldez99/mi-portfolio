@@ -6,7 +6,7 @@ overflow: hidden;
 align-items: center;
 height: 50px;
 padding: 10px;
-margin-bottom: 20px;
+background-color: rgba(1, 42, 74, .9);
 
 box-shadow: -1px 0px 7px 3px rgba(0, 0, 0, 0.17);
 }

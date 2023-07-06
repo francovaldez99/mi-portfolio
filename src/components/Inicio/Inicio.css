@@ -5,9 +5,9 @@
     flex-direction: row;
     flex-wrap: wrap-reverse;
     align-items: center;
-   min-height: 80vh;
+   min-height: 100vh;
 
-padding-top: 30px;
+/* padding-top: 30px; */
   
 }
 .inicio-text-container
@@ -38,6 +38,7 @@ color:  #FFA500;
 word-spacing: 1.5px;
 text-align: justify;
 padding: 20px;
+color: #fff;
 }
 .inicio-text-container {
  
@@ -78,7 +79,7 @@ border: none;
 }
 .descagar-cv{
   background-color: transparent;
-  color: #333333;
+  color: #fff;
   border: 1px solid #4285F4;
   display: flex;
   justify-content: center;

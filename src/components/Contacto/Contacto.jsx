@@ -4,6 +4,9 @@ import "./Contacto.css";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import { MdFileUpload } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
+import video from "../../assets/imgs/video_contact.mp4"
+import videoContact from "../../assets/imgs/video_contact.mp4"
+
 
 const YOUR_SERVICE_ID=process.env.REACT_APP_YOUR_SERVICE_ID
 const  YOUR_TEMPLATE_ID =process.env.REACT_APP_YOUR_TEMPLATE_ID
@@ -69,9 +72,14 @@ function Contacto() {
     
   return (
     <div className="contenido-contact">
-      <h2 className="contact-title">Contactame </h2>
+      <div className="overlay-video"></div>
+<video src={videoContact}  width="100%"
+       height="100%"
+        style={{objectFit:"cover"}}
+         autoPlay muted loop/>
 
       <section className="contact-container" >
+      <h2 className="contact-title">Contactame </h2>
         <div className="contact-wrapper" >
           <form ref={form} onSubmit={sendEmail} className="contact-form">
             <h4>Envíame un mail</h4>

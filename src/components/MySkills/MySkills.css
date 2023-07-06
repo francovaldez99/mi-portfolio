@@ -1,10 +1,9 @@
 .my-skills-section {
   min-height: 70vh;
 
-margin-top: 30px;
 padding-bottom: 30px;
 
-
+background-color: #013a63;
 }
 .article-skills-container {
     display: grid;
@@ -25,18 +24,19 @@ padding-bottom: 30px;
 .title-skill {
     text-align: center;
     margin-bottom: 50px;
-    color: #333333 ;
+    color: #fff ;
 font-family: 'Roboto', sans-serif;
+padding-top: 30px;
 
   
 }
 .title-area{
 
-    font-weight: bold;
     text-align: center;
-  font-style: italic;
-margin-bottom: 20px;
-color: #FFA500;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #FFA500;
+    font-size: 33px;
     
 }
 .skills-container {
@@ -61,7 +61,7 @@ border-radius: 8px;
 padding: 10px 20px;
   text-align: center;
 transition: 0.5s;
-
+background-color: rgba(1, 42, 74, .85);
 }
 
 .skill-card:hover{
