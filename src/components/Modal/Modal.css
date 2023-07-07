@@ -8,23 +8,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 .contenedor-modal{
     width: 80vw;
-    min-height: 85vh;
+    /* min-height: 85vh; */
     background-color: #fff;
     position: relative;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111,0.2) 0px 7px 29px 0px ;
     padding: 20px;
-    z-index: 0;
+    z-index: 2;
+    background-color: rgba(1, 42, 74, 1);
+    color: #fff;
 
 }
 
 .contenedor-boton-cerrar-modal{
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: -11px;
+    right: -10px;
 }
 .boton-cerrar-modal{
 display: flex;
@@ -33,9 +36,11 @@ justify-content: center;
 border: none;
 background-color: transparent;
 transition: 0.3 ease all;
+color: #FFA500;
+font-size: 32px;
 }
 .boton-cerrar-modal:hover {
-    color: red;
+    transform: scale(1.1);
 }
 
 

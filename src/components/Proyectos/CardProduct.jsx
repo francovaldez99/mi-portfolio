@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import { AiOutlineArrowRight } from "react-icons/ai";
+import {BsLink45Deg} from "react-icons/bs"
 import Modal from "../Modal/Modal"
 function CardProduct({item,index}) {
     const [isOpen, SetIsOpen] = useState(false);
@@ -40,14 +41,14 @@ function CardProduct({item,index}) {
        handleModalClose={handleModalClose}>
         <div className="project-details">
 
-  <div>
-          <img src={item.image} alt={item.name} className='image-detail-project'/>
-    <a href={item.link} target='_blank' rel="noreferrer">
+          <div>
+    <a href={item?.link} target='_blank' rel="noreferrer" className=''><h2><BsLink45Deg/>ir al proyecto</h2></a>
       <h2>{item.name}</h2>
+            <img src={item.image} alt={item.name} className='image-detail-project'/>
+          </div>
+  <div>
+    <a href={item.link} target='_blank' rel="noreferrer">
     </a>
-    <p>{item.textComplete ? item.textComplete : item.text}</p>
-    <a href={item?.link} target='_blank' rel="noreferrer" className=''><h2>ir al proyecto</h2></a>
-
     <h2>Tecnologías</h2>
     <ul>
       {item.tecnologias.map(
@@ -55,6 +56,8 @@ function CardProduct({item,index}) {
           <li key={index}>{tecno}</li>
           ))}
     </ul>
+    <p>{item.textComplete ? item.textComplete : item.text}</p>
+
   </div>
 </div>
 

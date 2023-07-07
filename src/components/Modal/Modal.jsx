@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import "./Modal.css";
-import { GrClose } from "react-icons/gr";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 
 function Modal({ children , isOpen, handleModalClose }) {
     
@@ -15,7 +15,7 @@ function Modal({ children , isOpen, handleModalClose }) {
             </div>
             <div className="contenedor-boton-cerrar-modal">
               <button className="boton-cerrar-modal" onClick={handleModalClose}>
-                <GrClose />
+                <AiOutlineCloseCircle />
               </button>
             </div>
           </div>
