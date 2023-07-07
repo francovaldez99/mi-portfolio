@@ -55,7 +55,7 @@ font-style: italic;
   
     justify-content: space-between;
     padding: 2px 19px;
-    height: 256px;
+    min-height: 256px;
     display: flex;
     flex-direction: column;
     align-items: center;

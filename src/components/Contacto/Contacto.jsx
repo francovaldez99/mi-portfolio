@@ -4,8 +4,8 @@ import "./Contacto.css";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import { MdFileUpload } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
-import video from "../../assets/imgs/video_contact.mp4"
 import videoContact from "../../assets/imgs/video_contact.mp4"
+
 
 
 const YOUR_SERVICE_ID=process.env.REACT_APP_YOUR_SERVICE_ID
@@ -72,12 +72,14 @@ function Contacto() {
     
   return (
     <div className="contenido-contact">
-      <div className="overlay-video"></div>
-<video src={videoContact}  width="100%"
-       height="100%"
+
+  
+<video 
+    src={videoContact}
+    width="100%"
+         height="100%"
         style={{objectFit:"cover"}}
          autoPlay muted loop/>
-
       <section className="contact-container" >
       <h2 className="contact-title">Contactame </h2>
         <div className="contact-wrapper" >
@@ -123,7 +125,7 @@ function Contacto() {
           <p> Estoy aquí para colaborar contigo y hacer realidad tus ambiciosas metas. ¡Envíame un mensaje y comencemos a construir algo increíble juntos!</p>
           <ul>
             <li>
-              <a>
+              <a >
                 <span>
                   <AiOutlineMail />
                 </span>
@@ -133,7 +135,7 @@ function Contacto() {
               </a>
             </li>
             <li>
-              <a>
+              <a href="#">
                 <span>
                   <AiOutlinePhone />
                 </span>
