@@ -2,6 +2,7 @@ import React from 'react'
 import { useState  } from 'react'
 import "./Nav.css"
 import {FaBars,FaTimes} from "react-icons/fa"
+import logo from "../../assets/Captura-removebg-preview.png"
 function Nav() {
   const [isOpen,SetIsOpen]=useState(false)
   function changeStatusOpen() {
@@ -11,7 +12,7 @@ function Nav() {
   return (
     <div className='nav-container'>
         <div href='#inicio'>
-          {/* <p className='logo'>Valdez </p> */}
+          <img src={logo} alt='logo' height="100%" width="70px"/>
         </div>
 
             <nav className={`nav ${isOpen? "responsive-nav":""}`}>

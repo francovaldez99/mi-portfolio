@@ -35,6 +35,7 @@ z-index: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px 20px;
 }
 .contact-container * {
     color: #fff;
@@ -66,8 +67,10 @@ z-index: 1;
         padding: 1px 20px;
     }
     .contenido-contact{
-        min-height: 800px;
-
+        min-height: 880px;
+    }
+    .contact-container{
+        margin: 0;
     }
 }
 .contact-wrapper .contact-form {
@@ -82,7 +85,6 @@ z-index: 1;
 .contact-wrapper .contact-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
     height: 100%;
     /* padding: 10px 20px; */
@@ -127,7 +129,7 @@ outline: none;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex: 1 0 auto;
+    flex: 1 0 200px;
 }
 
 .contact-info button{

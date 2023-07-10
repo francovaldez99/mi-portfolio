@@ -43,8 +43,8 @@ function CardProduct({item,index}) {
 
           <div>
     <a href={item?.link} target='_blank' rel="noreferrer" className=''><h2><BsLink45Deg/>ir al proyecto</h2></a>
-      <h2>{item.name}</h2>
             <img src={item.image} alt={item.name} className='image-detail-project'/>
+      <h2>{item.name}</h2>
           </div>
   <div>
     <a href={item.link} target='_blank' rel="noreferrer">

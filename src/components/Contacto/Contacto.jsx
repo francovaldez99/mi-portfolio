@@ -112,7 +112,7 @@ function Contacto() {
                 id="message"
                 className="text-area"
                 required
-                rows="3"
+                rows="5"
               />
             </p>
             <p className="label-input-container block ">
@@ -125,7 +125,7 @@ function Contacto() {
           <p> Estoy aquí para colaborar contigo y hacer realidad tus ambiciosas metas. ¡Envíame un mensaje y comencemos a construir algo increíble juntos!</p>
           <ul>
             <li>
-              <a >
+              <a href="mailto:francomartinvaldez99@gmail.com" >
                 <span>
                   <AiOutlineMail />
                 </span>
@@ -135,12 +135,12 @@ function Contacto() {
               </a>
             </li>
             <li>
-              <a href="#">
+              
                 <span>
                   <AiOutlinePhone />
                 </span>
                 <span>+543704616884</span>
-              </a>
+              
             </li>
               <li>
                 <a

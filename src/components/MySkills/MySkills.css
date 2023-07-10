@@ -10,6 +10,7 @@ background-color: #013a63;
     grid-template-columns: repeat(auto-fill, minmax(250px, 600px));
     justify-content: center;
     gap: 10px;
+    margin: 0 auto;
 
 }
 .article-skills-container  article{
@@ -48,8 +49,17 @@ padding-top: 30px;
   padding: 10px 20px;
   border-radius: 8px;
 
-  
 }
+@media screen and (max-width: 768px){
+  .skills-container {
+    gap: 0;
+  grid-template-columns: repeat(2, minmax(90px, 150px));
+
+  }
+  .skill-card{
+    margin: 5px 10px;
+  }
+} 
 .skill-card {
   display: flex;
   flex-direction: column;
