@@ -43,7 +43,6 @@ padding-bottom:30px;
 overflow: hidden;
 padding-bottom:30px;
 background-color: rgba(1, 42, 74, .85);
-margin: 5px 10px;
 }
 .proyecto-card-title{
 color: #FFA500;
@@ -95,6 +94,10 @@ font-style: italic;
 @media screen and (max-width: 975px) {
 .project-details{
     grid-template-columns: 1fr;
+
+}
+.proyecto-card{
+margin: 5px 10px;
 
 }
 }
