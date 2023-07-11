@@ -156,7 +156,9 @@ function Contacto() {
             
           </ul>
           <button className="contact-button descagar-cv" id="descargar-cv">
-            <MdFileUpload /> Descargar CV
+            <a href="https://drive.google.com/file/d/1qL_joUdTYi6un-KqfxhVNv5mlU-WHe3e/view?usp=sharing" target="_blank" rel="noreferrer">
+              <MdFileUpload /> Descargar CV
+            </a>
           </button>
           
         </article>

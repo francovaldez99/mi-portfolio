@@ -105,7 +105,7 @@ margin: 5px 10px;
     display: grid;
     min-height: 80px;
     grid-template-columns: repeat(4, 1fr);
-    border: 2px solid;
+
  
 }
 .project-details ul li {
