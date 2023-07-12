@@ -33,7 +33,7 @@ function Proyectos() {
         name: "HA maderas",
         image: HAMaderas,
         text: "Pagina web desarrollada para empresa que importa ...",
-        textComplete:"Pagina web desarrollada para empresa que importa y vende puertas y zocalos ",
+        textComplete:"Pagina web desarrollada para empresa que importa y vende puertas y zocalos a todo Paraguay ",
         tecnologias:[
           "ReactJs React-icons"
         ],
