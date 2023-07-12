@@ -15,8 +15,8 @@ function App() {
           
                 <Inicio/>
         </div>
-     <MySkills/>
      <Proyectos/>
+     <MySkills/>
      <Contacto/>
 
     </div>
