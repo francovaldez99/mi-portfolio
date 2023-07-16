@@ -156,7 +156,7 @@ function Contacto() {
             
           </ul>
 
-            <a href="https://drive.google.com/file/d/1qL_joUdTYi6un-KqfxhVNv5mlU-WHe3e/view?usp=sharing"  className="contact-button descagar-cv" id="descargar-cv" target="_blank" rel="noreferrer">
+            <a href="https://docs.google.com/document/d/1EOYlIb-NuGs53gHhUsrBdhntRsqbBSFMR3aKOm942hU/edit?usp=sharing"  className="contact-button descagar-cv" id="descargar-cv" target="_blank" rel="noreferrer">
               <MdFileUpload /> Descargar CV
             </a>
    
