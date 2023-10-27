@@ -36,32 +36,32 @@ function CardProduct({item,index}) {
         </span>
       </button>
     </div>
-    <Modal 
-       isOpen={isOpen}
-       handleModalClose={handleModalClose}>
-        <div className="project-details">
+    // ...
 
-          <div>
-    <a href={item?.link} target='_blank' rel="noreferrer" className=''><h2><BsLink45Deg/>ir al proyecto</h2></a>
-            <img src={item.image} alt={item.name} className='image-detail-project'/>
-      <h2>{item.name}</h2>
-          </div>
-  <div>
-    <a href={item.link} target='_blank' rel="noreferrer">
-    </a>
+<Modal isOpen={isOpen} handleModalClose={handleModalClose}>
+  <div className="modal-content">
+    
+    <h2 className="project-title">{item.name} </h2>
+    
+    <img src={item.image} alt={item.name} className="image-detail-project" />
     <h2>Tecnologías</h2>
-    <ul>
-      {item.tecnologias.map(
-        (tecno,index)=>(
-          <li key={index}>{tecno}</li>
-          ))}
+    <ul className="tech-list">
+      {item.tecnologias.map((tecno, index) => (
+        <li key={index}>{tecno}</li>
+      ))}
     </ul>
-    <p>{item.textComplete ? item.textComplete : item.text}</p>
-
+    <a href={item.link} target="_blank" rel="noreferrer" className="project-link">
+      Ir al proyecto
+    </a>
+    <p className="project-description">
+      {item.textComplete ? item.textComplete : item.text}
+    </p>
   </div>
-</div>
+</Modal>
 
-        </Modal>
+// ...
+
+   
   </div>
   )
 }

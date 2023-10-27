@@ -67,7 +67,7 @@ function Proyectos() {
       <div className="proyecto-cards-container" >
         {proyectos.map((item, index) => {
           return (
-           <CardProduct item={item} index={index} />
+           <CardProduct item={item} index={index} key={index}/>
           );
         })}
       </div>

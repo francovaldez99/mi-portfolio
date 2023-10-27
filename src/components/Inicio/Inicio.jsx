@@ -2,7 +2,7 @@ import React from 'react'
 import "./Inicio.css"
 import fotoperfil from '../../assets/imgs/Francodev.jpg'
 import { MdFileUpload} from "react-icons/md"
-
+const CV=process.env.REACT_APP_YOUR_DOWNLOAD_CV
 function Inicio() {
   return (
       
@@ -17,7 +17,7 @@ function Inicio() {
             <p>Un entusiasta de la programación con experiencia en la administración de tiendas online.  A lo largo de los años, he adquirido habilidades en gestión de proyectos y atención al cliente gracias a mi trabajo en la administración . Ahora,  aplico mis conocimientos en programación y habilidades de resolución de problemas  buscando desafíos emocionantes y persiguiendo mi desarrollo profesional.</p>
             <div className='inicio-btn-container'>
                 
-                <a href="https://docs.google.com/document/d/1EOYlIb-NuGs53gHhUsrBdhntRsqbBSFMR3aKOm942hU/edit?usp=sharing" target="_blank" rel="noreferrer" className="contact-button descagar-cv"><MdFileUpload/> Descargar CV</a>
+                <a href={CV} target="_blank" rel="noreferrer" className="contact-button descagar-cv"><MdFileUpload/> Descargar CV</a>
                
               <a className="contact-button" href='#contacto'>
                   Contáctame

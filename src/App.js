@@ -8,6 +8,7 @@ import Proyectos from './components/Proyectos/Proyectos';
 
 
 function App() {
+
   return (
     <div >
         <div className='inicio-nav-container'>
