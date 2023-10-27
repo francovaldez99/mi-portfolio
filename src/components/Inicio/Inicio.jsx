@@ -17,7 +17,7 @@ function Inicio() {
             <p>Un entusiasta de la programación con experiencia en la administración de tiendas online.  A lo largo de los años, he adquirido habilidades en gestión de proyectos y atención al cliente gracias a mi trabajo en la administración . Ahora,  aplico mis conocimientos en programación y habilidades de resolución de problemas  buscando desafíos emocionantes y persiguiendo mi desarrollo profesional.</p>
             <div className='inicio-btn-container'>
                 
-                <a href={CV} target="_blank" rel="noreferrer" className="contact-button descagar-cv"><MdFileUpload/> Descargar CV</a>
+                <a href={CV || "https://docs.google.com/document/d/1kpWOuUH4brwHEdNw3sHWkLJr4y0RLqQ58CMWvt9b64Y/edit?usp=sharing"} target="_blank" rel="noreferrer" className="contact-button descagar-cv"><MdFileUpload/> Descargar CV</a>
                
               <a className="contact-button" href='#contacto'>
                   Contáctame
