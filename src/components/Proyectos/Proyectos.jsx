@@ -45,7 +45,7 @@ function Proyectos() {
       image: DiscoverTheWorld,
       text: " aplicación web de turismo que utiliza las siguientes tecnologías: React, Redux, Express, Sequelize y Postgres.El home ofrece un campo de búsqueda, una lista de países con opciones de filtros, ordenamientos y paginación. Además...",
       textComplete:"",
-      link:"https://github.com/francovaldez99/PI-Counties-DiscovertheWorld",
+      link:"https://discoverthewolrd.onrender.com",
       tecnologias:[
         "react","redux","NodeJS","ExpressJs","PostgresSQL","Sequelize"
       ]
