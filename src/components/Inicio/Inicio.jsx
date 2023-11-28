@@ -13,7 +13,7 @@ function Inicio() {
            
               </h1>
               <span className='subtitle-inicio'>
-              Desarrollador Frontend</span>
+              Desarrollador Web</span>
             <p>Un entusiasta de la programación con experiencia en la administración de tiendas online.  A lo largo de los años, he adquirido habilidades en gestión de proyectos y atención al cliente gracias a mi trabajo en la administración . Ahora,  aplico mis conocimientos en programación y habilidades de resolución de problemas  buscando desafíos emocionantes y persiguiendo mi desarrollo profesional.</p>
             <div className='inicio-btn-container'>
                 

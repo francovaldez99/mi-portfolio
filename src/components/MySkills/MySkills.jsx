@@ -12,6 +12,7 @@ import sequelize from "../../assets/imgs/sequelize_icon.svg";
 import typescript from "../../assets/imgs/Typescript_icon.svg";
 import tailwind from "../../assets/imgs/tailwind_icon_.svg";
 import postgres from "../../assets/imgs/postgres.svg";
+import mongodb from "../../assets/imgs/mongodbicon.svg"
 
 function MySkills() {
   const Frontend = [
@@ -66,6 +67,10 @@ function MySkills() {
         icon: postgres,
         name: "Postgres",
       },
+      {
+        icon:mongodb,
+        name:"MongoDB"
+      }
   ];
  
 

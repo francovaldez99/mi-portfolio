@@ -6,7 +6,7 @@ import CalculadoraApp from "../../assets/imgs/CalculadorApp.png"
 import DMArquitectura from "../../assets/imgs/DMArquitectura.png"
 import HAMaderas from "../../assets/imgs/HAMaderas.png"
 import CardProduct from "./CardProduct";
-
+import myfavdrins from "../../assets/imgs/myfavouritesdrinks.PNG"
 function Proyectos() {
   const proyectos = [
     {
@@ -39,6 +39,15 @@ function Proyectos() {
         ],
         link:"https://hamaderas.com"
         
+    },{
+      name:"My Favourites Drinks",
+      image : myfavdrins,
+text:"Se trata de una sencilla aplicación en la que el usuario puede guardar recetas de bebidas en su colección de favoritos o crear nuevas. Se utiliza el stack MERN ",
+      textComplete:"Se trata de una sencilla aplicación en la que el usuario puede guardar recetas de bebidas en su colección de favoritos o crear nuevas. Se utiliza el stack MERN (MongoDB, Express, React y Node.js) y se implementa la autenticación de usuarios con bcrypt y jwtoken . El usuario puede buscar bebidas según si contienen o no alcohol, ingredientes, tipo de copa o vaso, y categoría.",
+      tecnologias:[
+        "ReactJs","Mongodb","nodejs","expressjs","mongoose","bcrypt","jwtoken"
+      ],
+      link:"https://my-favourites-drinks.onrender.com"
     },
     {
       name: "Discover the world",
@@ -60,6 +69,7 @@ function Proyectos() {
       ],
       link:"https://helpful-salamander-f76ba2.netlify.app"
     },
+    
   ];
   return (
     <div className="section-proyectos">
