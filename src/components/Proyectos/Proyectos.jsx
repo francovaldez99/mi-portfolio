@@ -1,6 +1,8 @@
 import React from "react";
 import "./Proyectos.css";
 import FusionaJob from "../../assets/imgs/FusionaJob.png";
+import Tasksync from "../../assets/imgs/TasksyncCaptura1.jpg";
+
 import DiscoverTheWorld from "../../assets/imgs/DiscoverTheWorld.png"
 import CalculadoraApp from "../../assets/imgs/CalculadorApp.png"
 import DMArquitectura from "../../assets/imgs/DMArquitectura.png"
@@ -9,6 +11,16 @@ import CardProduct from "./CardProduct";
 import myfavdrins from "../../assets/imgs/myfavouritesdrinks.PNG"
 function Proyectos() {
   const proyectos = [
+     {
+      name: "Tasksync",
+      image: Tasksync,
+      text: " TaskSync es una aplicación de gestión de tareas diseñada para ayudarte a organizar tus actividades diarias de manera eficiente ",
+      textComplete:" TaskSync es una aplicación de gestión de tareas diseñada para ayudarte a organizar tus actividades diarias de manera eficiente. Con una interfaz fácil de usar y características poderosas, TaskSync te permite mantener el control de tus tareas en un solo lugar.   Características : Interfaz Intuitiva: Una interfaz de usuario simple y amigable que facilita la gestión de tus tareas. Gestión de Proyectos: Crea y organiza tus proyectos y tareas de forma estructurada.Listas Personalizadas: Crea listas personalizadas para organizar tus tareas de acuerdo a tus necesidades. Arrastrar y Soltar: Funcionalidad de arrastrar y soltar para una organización fácil y rápida de tareas",
+      tecnologias:[
+        "react","redux","tailwind","Material UI","NodeJS","ExpressJs","PostgresSQL","Sequelize"
+      ],
+      link:"https://trello-clone-client.onrender.com"
+    },
     {
       name: "FusinaJob  ",
       image: FusionaJob,
