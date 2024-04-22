@@ -1,4 +1,3 @@
-import React,{useState} from "react";
 import "./Modal.css";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 

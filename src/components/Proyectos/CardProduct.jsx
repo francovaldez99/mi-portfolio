@@ -1,11 +1,12 @@
 import React,{useState} from 'react'
 import { AiOutlineArrowRight } from "react-icons/ai";
-import {BsLink45Deg} from "react-icons/bs"
+import { useNavigate } from 'react-router-dom';
 import Modal from "../Modal/Modal"
-function CardProduct({item,index}) {
+function CardProduct({item,index,idProject}) {
+  const navigate= useNavigate()
     const [isOpen, SetIsOpen] = useState(false);
     const handleCardClick = () => {
-        SetIsOpen(true);
+    navigate("/projects/"+idProject)
       };
     
       const handleModalClose = () => {
@@ -36,7 +37,7 @@ function CardProduct({item,index}) {
         </span>
       </button>
     </div>
-    // ...
+    
 
 <Modal isOpen={isOpen} handleModalClose={handleModalClose}>
   <div className="modal-content">
@@ -59,7 +60,6 @@ function CardProduct({item,index}) {
   </div>
 </Modal>
 
-// ...
 
    
   </div>

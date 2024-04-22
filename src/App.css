@@ -11,8 +11,10 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background-color: #fff;
+
   color: hsl(209, 23%, 22%);
+  
+  background-color: #013a63;
 }
 h1,h2,h4{
   font-family: 'Montserrat', sans-serif;
