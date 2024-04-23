@@ -20,9 +20,9 @@ function ProyectoDetail({ proyectos }) {
                      Volver
                     </button> 
             <div className="proyecto-detail-content">
+                <img className="proyecto-detail-image" src={projectActual.image} alt={projectActual.name} />
                 <h2 className="proyecto-detail-title">{projectActual.name}</h2>
                 <p className="proyecto-detail-description">{ projectActual.textComplete ? projectActual.textComplete : projectActual.text }</p>
-                <img className="proyecto-detail-image" src={projectActual.image} alt={projectActual.name} />
                 {projectActual.tecnologias && (
                     <div className="proyecto-detail-technologies">
                         <h3 className="proyecto-detail-technologies-title">Tecnologías utilizadas:</h3>
