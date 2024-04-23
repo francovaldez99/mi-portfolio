@@ -2,6 +2,7 @@ import React from 'react'
 import "./Inicio.css"
 import fotoperfil from '../../assets/imgs/Francodev.jpg'
 import { MdFileUpload} from "react-icons/md"
+import { HashLink } from 'react-router-hash-link';
 const CV=process.env.REACT_APP_YOUR_DOWNLOAD_CV
 function Inicio() {
   return (
@@ -19,9 +20,9 @@ function Inicio() {
                 
                 <a href={CV || "https://docs.google.com/document/d/1kpWOuUH4brwHEdNw3sHWkLJr4y0RLqQ58CMWvt9b64Y/edit?usp=sharing"} target="_blank" rel="noreferrer" className="contact-button descagar-cv"><MdFileUpload/> Descargar CV</a>
                
-              <a className="contact-button" href='#contacto'>
+              <HashLink className="contact-button" to='#contacto'>
                   Contáctame
-                </a>
+                </HashLink>
             </div>
           <div>
         

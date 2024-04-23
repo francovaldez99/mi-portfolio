@@ -93,8 +93,11 @@ text:"Se trata de una sencilla aplicación en la que el usuario puede guardar re
   return (
     <div >
      
-<Routes>
-  <Route path='/' element={<>
+<Routes >
+  <Route path='/'
+ 
+  
+  element={<>
     <div className='inicio-nav-container'>
           <Nav/>
           <Inicio/>
@@ -107,7 +110,6 @@ text:"Se trata de una sencilla aplicación en la que el usuario puede guardar re
   </>}/>
   
   <Route path='/projects/:idProject' element={<ProyectoDetail proyectos={proyectos}/>}/>
-  <Route path='/contacto' element={     <Contacto />}/>
  
 </Routes>
     </div>

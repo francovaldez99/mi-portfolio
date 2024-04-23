@@ -71,7 +71,7 @@ function Contacto() {
   
     
   return (
-    <div className="contenido-contact">
+    <div className="contenido-contact" id="contacto">
 
   
 <video 
